@@ -1,0 +1,31 @@
+$primary-color: rgba(217, 16, 223, 0.8);
+$secondary-color: #2ecc71;
+$text-color: #171414;
+$font-main: 'Arial', sans-serif;
+$font-size-base: 16px;
+
+.buttons-primary {
+  background: $primary-color;
+  color: $text-color;
+  font-family: $font-main;
+}
+
+@mixin button-style($bg-color, $width:
+100px) {
+  background-color: $bg-color;
+  width: $width;
+  padding: 10px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+}
+
+
+.buttons-primary {
+  @include button-style(#3498db);
+}
+
+.buttons-primary {
+  @include button-style(#2ecc71, 120px);
+}

@@ -1,0 +1,27 @@
+.buttons-primary {
+  background: rgba(217, 16, 223, 0.8);
+  color: #171414;
+  font-family: "Arial", sans-serif;
+}
+
+.buttons-primary {
+  background-color: #3498db;
+  width: 100px;
+  padding: 10px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.buttons-primary {
+  background-color: #2ecc71;
+  width: 120px;
+  padding: 10px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=sass_style.css.map */
